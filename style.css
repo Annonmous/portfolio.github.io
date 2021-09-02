@@ -1,0 +1,295 @@
+*
+{
+    margin: 0%;
+    padding: 0%;
+}
+
+.container-fluid
+{
+   background-color: white;
+}
+section
+{
+    height: 100vh;
+    width: 100%;
+    text-align: center;
+    
+}
+#home
+{
+    
+    color: black;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+#home .display-3
+{
+    font-weight:bolder ;
+}
+#about
+{
+height: 270vh;
+      
+}
+#resume
+{
+    height:160vh;
+}
+#services
+{
+    height: 160vh;
+}
+#portfolio
+{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-image: url(bg/women-anime-girls-brunette-cat-wallpaper-preview.jpg);
+}
+.skill-wrraper
+{
+    background-color:rgb(246, 241, 241);
+}
+
+#about .row h1{
+    border-bottom: 8px solid red;
+    
+}
+#resume .row h1
+{
+    border-bottom: 8px solid red;
+}
+#resume .row p
+{
+text-align: start;
+margin-top: 20px;
+
+}
+.resume-wrraper,.services-wrraper
+{
+    text-align: start;
+    
+}
+.summary-wrapper
+{
+    border-left: 3px solid red;
+}
+.summary-wrapper h3{
+    margin-left: 20px;
+}
+
+.summary-wrapper p{
+    margin-left: 20px;
+}
+.summary-wrapper .date
+{
+    background-color: rgb(163, 145, 145);
+    color: white;
+    display: inline-block;
+    width: 150px;
+    font-family: 'ZCOOL KuaiLe', cursive;
+    margin-left: 20px;
+}
+.card-wrraper 
+{
+margin: 20px;
+}
+.services-wrraper h1
+{
+    border-bottom: 8px solid red;
+}
+.service-box
+{
+    width: 350px;
+    height: 200px;
+}
+.service-box:hover>.icon
+{
+    color: red;
+}
+.service-box .title h4 a
+{
+    width: 60px;
+    position: relative;
+    left: 18%;
+    bottom: 200px;
+    text-decoration: none;
+    color: black;
+}
+.service-box .para
+{
+    
+    width: 280px;
+    height: 150px;
+    position: relative;
+    left: 18%;
+    bottom: 200px;
+}
+.icon
+{
+   
+    width: 60px;
+    height: 100%;
+    color: rgb(202, 95, 95);
+    
+}
+.contact-wrapper h1
+{
+    border-bottom: 8px solid red;
+}
+.contact-wrapper
+{
+    text-align: start;
+}
+.card-wrraper2 
+{
+   
+    box-shadow: 0px 0px 10px white,0px 0px 10px black,0px 0px 10px black;
+    width: 550px;
+    height: 650px;
+   
+}
+.card-wrraper3
+{
+    box-shadow: 0px 0px 10px white,0px 0px 10px black,0px 0px 10px black;
+    width: 750px;
+    height: 650px;
+}
+.card-wrraper3 form
+{
+    width: 550px;
+    position: relative;
+    left: 120px;
+    top: 50px;
+}
+
+.contact-box .map 
+{
+    justify-content: center;
+    
+    position: relative;
+    left: 60px;
+    width: 420px;
+  
+    
+}
+.img img
+{
+    width: 60%;
+    border-radius:50%;
+}
+.img
+{
+    position: relative;
+    left: 15px;
+}
+.icons a,i
+{
+    margin: 5px;
+    
+}
+.icons a:hover
+{
+    color: rgb(170, 6, 6);
+}
+.nav
+{
+    position: relative;
+    right: 20px;
+    bottom: 30px;
+}
+.nav li a
+{
+    margin: -5%;
+    color:grey ;
+}
+
+.nav li a:hover
+{
+    color: red;
+}
+
+
+.copyright
+{
+    position: absolute;
+    top: 150%;
+    transform: translate(0%,-150%);
+}
+
+.btn
+{
+    float: right;
+}
+.wrapper
+{
+    display: flex;
+    position: absolute;
+   bottom: 350px;
+    
+}
+.wrapper .static-txt
+{
+    font-size: 50px;
+    font-weight: 400;
+   position: relative;
+    top: 12px;
+    left: 20px;
+    font-weight: bold;
+}
+.wrapper .dynamic-txt li
+{
+    color: red;
+    font-size: 50px;
+    font-weight: bold;
+    list-style: none;
+    position: relative;
+    animation: slide 6s steps(2) infinite;
+}
+@keyframes slide {
+    100%
+    {
+        bottom: 85px;
+    }
+    
+}
+.wrapper .dynamic-txt
+{
+    font-weight: 400;
+    margin-right:15px ;
+    line-height: 90px;
+    height: 90px;
+    overflow: hidden;
+}
+.dynamic-txt li::after
+{
+    content: "";
+    position: absolute;
+    left: 0%;
+    height: 100%;
+    width: 100%;
+    border-left: 2px solid red;
+    animation:typing 3s steps(10) infinite;
+    background-color:white;
+}
+@keyframes typing {
+    40%,
+    60%
+    {
+        left: calc(100% + 30px);
+    }
+    100%
+    {
+        left:0;
+    }
+}
+.box
+{
+    width: 200px;
+    height: 200px;
+  box-shadow: 0px 0px 10px white,0px 0px 20px black,0px 0px 30px black;
+    float: left;
+    margin: 20px;
+}
